@@ -1,0 +1,49 @@
+#TO INSTALL A LIBRARY WE USE, ggplot2 
+
+install.package("ggplot2")
+
+#to detach the paqckage 
+
+
+detach("package:ggplot2", unload = TRUE)
+
+#make use of our import pacakages by using a commad callsed iblary
+
+library(ggplot2)
+
+
+
+#dataset of cars
+mtcars
+
+#to display the particular feature
+mtcars['disp']
+
+#get summary information about dataset\
+
+summary(mtcars)
+
+#to get the quantile 
+quantile(mtcars$mpg)
+
+#to get the summary of the cars
+summary(cars)
+
+
+#to know the what type of dataset is 
+
+class(cars)
+
+#to know the dimesions of cars
+
+dim(cars)
+
+
+#Compactly Display the Structure of an Arbitrary R Object
+
+
+str(cars)
+
+
+#Sample Quantiles
+quantile(cars$speed)
